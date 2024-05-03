@@ -1,32 +1,8 @@
 import React from 'react';
 
-// import styled from 'styled-components';
 import PropTypes from 'prop-types';
-// import {
-//   BrowserRouter as Router,
-//   Link
-// } from "react-router-dom";
 
-// #region constants
 
-// #endregion
-
-// #region styled-components
-
-// #endregion
-
-// #region functions
-
-// #endregion
-
-// #region component
-// const propTypes = {};
-
-// const defaultProps = {};
-
-/**
- * 
- */
 const Navbar = (props) => {
     return(
     

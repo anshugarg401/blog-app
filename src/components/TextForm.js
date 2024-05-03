@@ -65,17 +65,17 @@ const TextForm = (props) => {
         <textarea className={`form-control text-${props.mode==="light"? "dark":"light"} bg-${props.mode ==="light"?"white":"secondary" }`} id="exampleFormControlTextarea1" rows="6"  value = {Text} onChange = {handleonchange}></textarea>
     </div>
     <div className="btn ">
-        <button className={`btn btn-${props.primary}`} onClick = {handleonupclick}>convert to upper case </button>
+        <button className={`btn btn-${props.primary}`} onClick = {handleonupclick}>CONVERT UPPERCASE</button>
     </div>
     <div className="btn ">
-        <button className={`btn btn-${props.primary}`} onClick = {handleonloclick}>convert to lower case </button>
-        <button className={`btn btn-${props.primary} my-3 mx-3`} onClick={clearit}>Clear text</button>
-        <button className={`btn btn-${props.primary} my-3 mx-3`}  id = "btncopy" onClick={handlecopy}>Copy text</button>
-        <button className={`btn btn-${props.primary} my-3 mx-3`}  id = "btncopy" onClick={handlespace}>remove spaces</button>
+        <button className={`btn btn-${props.primary}`} onClick = {handleonloclick}>CONVERT LOWERCASE</button>
+        <button className={`btn btn-${props.primary} my-3 mx-3`} onClick={clearit}>CLEAR</button>
+        <button className={`btn btn-${props.primary} my-3 mx-3`}  id = "btncopy" onClick={handlecopy}>COPY TEXT</button>
+        <button className={`btn btn-${props.primary} my-3 mx-3`}  id = "btncopy" onClick={handlespace}>REMOVE SPACES</button>
     </div>
     <div className = "count">
     <h2>YOUR TEXT SUMMARY</h2>
-    {Text.split.length}word {Text.length}character 
+  {Text.length}TEXT
         <br /> {Text.split.length/250}  reading time 
     </div>
 

@@ -89,7 +89,7 @@ const removetonggle = ()=>{
       {/* <Router>
         <Switch> */}
           {/* <Route exact path="/"> */}
-          <TextForm heading = " Write your content here " uppercaseText= "uppercase the text " mode = {mode} primary= {primary}tonggleswitch = {tonggleswitch} />
+          <TextForm heading = " Write your content here " uppercaseText= "UPPERCASE THE TEXT " mode = {mode} primary= {primary}tonggleswitch = {tonggleswitch} />
           {/* </Route>
           <Route exact path="/about">
             <About />
